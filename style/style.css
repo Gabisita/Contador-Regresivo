@@ -1,0 +1,40 @@
+body {
+    background-image: url('año\ nuevo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif, 'Lucida Sans';
+    text-align: center;
+    flex-direction: column;
+}
+  
+#cuentaRegresiva div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+  
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+#cuentaRegresiva{
+ flex-direction: row;
+ display: flex;
+}
+  
